@@ -1,0 +1,256 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial";
+    background-color: #f7f7f7;    
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.total_page {
+    display: flex;
+    flex-direction: column;
+}
+.head {
+    height: 77px;
+    display:flex;
+    align-items: baseline;
+    border-bottom-style: solid;
+    border-color: #c3bdbd;
+    border-bottom-width: 1px;
+}
+.head > div {
+    width: 600px;
+    text-align: center;
+    align-self: center;
+    line-height: 20px;  
+}
+
+.drive_logo {
+    width: 50px;
+    height: 50px;
+  	cursor: pointer;
+  	position: absolute;
+	right:85%;
+	top: 6%;
+}
+
+
+.btn_logout {
+	padding-top: 50px;
+	padding-right: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 0px 0px 0px 10px;
+    width: 80px;
+    background-color: #003333;
+    border-color: #003333;
+    color: #fff;
+
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+	position: absolute;
+	cursor: pointer;
+	right: 5%;
+	top: 6%;
+    text-align: center;
+}
+
+.the_content {
+    align-self: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.text {
+    margin-left: 5px;
+    text-align: left;
+    font-size: 14px;
+    flex-basis: 600px;
+}
+.display_name {
+    color: #3897f0;
+    font-size: 16px;
+}
+
+.logged_in_user{
+    position: absolute;
+	cursor: pointer;
+	right: 82%;
+	top: 8%;
+}
+
+.btn_back{
+    padding-top: 50px;
+    padding-right: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 0px 0px 0px 10px;
+    width: 80px;
+    background-color: #003333;
+    border-color: #003333;
+    color: #fff;
+
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+    position: absolute;
+    right: 13%;
+    top: 6%;
+    text-align: center;
+}
+
+.btn_add_user{
+    padding-top: 50px;
+    padding-right: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 0px 0px 0px 10px;
+    width: 80px;
+    background-color: #003333;
+    border-color: #003333;
+    color: #fff;
+    position: absolute;
+    right: 21%;
+    top: 6%;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+
+
+
+
+.btn_promote{
+    padding-top: 50px;
+    padding-right: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 0px 0px 0px 10px;
+    width: 80px;
+    background-color: #003333;
+    border-color: #003333;
+    color: #fff;
+    position: absolute;
+    right: 35%;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;    
+}
+
+.btn_demote{
+    padding-top: 50px;
+    padding-right: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 0px 20px 0px 10px;
+    width: 80px;
+    background-color: #003333;
+    border-color: #003333;
+    color: #fff;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center; 
+}
+
+.btn_paste{
+    padding-top: 50px;
+    padding-right: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 0px 0px 0px 10px;
+    width: 80px;
+    background-color: #003333;
+    border-color: #003333;
+    color: #fff;
+
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+    position: absolute;
+    right: 21%;
+    top: 6%;
+    text-align: center;
+}
+
+.btn_add_directory{
+    padding-top: 50px;
+    padding-right: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 0px 0px 0px 10px;
+    background-color: #003333;
+    border-color: #003333;
+    color: #fff;
+
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+    position: absolute;
+    right: 29%;
+    top: 6%;
+    text-align: center;    
+}
+
+.btn_back_details{
+    padding-top: 50px;
+    padding-right: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 0px 0px 0px 10px;
+    width: 80px;
+    background-color: #003333;
+    border-color: #003333;
+    color: #fff;
+
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+    position: absolute;
+    right: 12%;
+    top: 6%;
+    text-align: center;    
+}
+}

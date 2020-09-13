@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="global_style">
+        <link rel="stylesheet" href="login_with_error_style">
+  </head>
+  <body>
+    <div class="card">
+      <h1>LOGIN</h1>
+      <form action="/login" method="post">
+
+        <input class="jeek_jeek-input" name="username" type="text" placeholder="Username" required="" />
+        <span  class="jeek_jeek-input_border"></span>
+
+        <input class="jeek_jeek-input" name="password" type="password" placeholder="Password" required="" />
+        <span  class="jeek_jeek-input_border"></span>
+
+        <button class="btn" type="submit" >Login</button>
+      </form>
+      <div class="error"> Sorry, your username or password was incorrect.<br> Please double-check. </div>
+    </div>
+    <div class="Copyright">
+        <p> &copy 2019 AP Drive </p>
+        <p class="creator"> by Yasamin Niknam </p>
+    </div>
+  </body>
+</html>

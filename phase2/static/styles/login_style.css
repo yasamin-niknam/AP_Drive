@@ -1,0 +1,26 @@
+form {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.input {
+    width: 100%;
+}
+
+.btn {
+	margin-top: 70px;
+    margin-bottom: 55px;
+	background-color: #003333;
+
+}
+
+.suggestion {
+    font-size: 12px;
+    margin-bottom: auto;
+}
+
+.drive_logo {
+	width: 60px;
+	height:60px;
+}
